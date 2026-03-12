@@ -1,4 +1,36 @@
-.venv
-.learning
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Model weights & training artifacts
 models/
-qwen*
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Misc personal/project-specific
+.learning/
+qwen*/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
