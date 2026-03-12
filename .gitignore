@@ -1,0 +1,4 @@
+.venv
+.learning
+models/
+qwen*
